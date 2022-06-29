@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+/* External css link */
+
+/* General Selector */
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
     transition: 0.5s;
 }
+/* End of General Selector */
+
+/* Navbar styling */
 .navbar{
     background-color: black;
     height: 30px;
@@ -16,18 +22,21 @@
     right: 0;
     border: 3px solid #07f702;
 }
+/* Navbar Logo Styling */
 .navbar .name p{
     justify-content: center;
     font-family: 'Itim', cursive;
     color: #07f702;
     font-size: 19px;
 }
-.navbar  .but button{
+/* Navbar Buttons Styling */
+.navbar .but button{
    padding: 3px 7px;
    border: 1px solid black;
    margin-right: 10px;
    margin-top: 2px;
 }
+/* Navbar Button Hover Effect */
 .navbar .but button:first-child:hover{
     background-color: red;
     color: #fff;
@@ -39,3 +48,4 @@
 .navbar .but button:nth-last-child(2):hover{
     background-color: yellow;
 }
+/* End Of Navbar Styling */
