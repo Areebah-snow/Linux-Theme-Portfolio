@@ -49,3 +49,25 @@
     background-color: yellow;
 }
 /* End Of Navbar Styling */
+.second-container{
+    border: 3px solid #07f702;
+    padding-top: 8%;
+    background-color: rgba(0, 0, 0, 0.925);
+    width: 100%;
+    height: 500px;
+}
+.second-container p{
+    font-size: 20px;
+    color: #07f702;
+    font-family: 'Itim', cursive;
+}
+.second-container h5{
+    margin-top: 25px;
+    font-size: 39px;
+    padding-top: 20px;
+    color: #07f702;
+    font-family: 'Itim', cursive;
+}
+.second-container h5 strong{
+    font-size: 25px;
+}
