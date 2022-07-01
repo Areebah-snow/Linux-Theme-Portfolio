@@ -91,12 +91,72 @@ html{
     margin-top: 10px;
     border: 2px solid #07f702;
 }
-.code-icon{
-    
+.skill-icons{
+    display: flex;
+    transition: 0.5s;
+}
+.code1-icon{
+    margin-left: 40px;
+    margin-top: 60px;
+    color: #07f702;
+    padding: 0px;
+}
+.code1-icon span{
+   font-size: 170px;
+}
+.code1-icon h6{
+    font-size: 24px;
+    font-family: 'Itim', cursive;
+}
+.code2-icons{
+    margin-top: 60px;
+    margin-left: 105px;
     color: #07f702;
 }
-.code-icon p{
-    width: 50px;
-     padding-left: 10px;
-    /* padding: 0px; */
+.code2-icons span{
+    font-size: 170px;
+}
+.code2-icons h6{
+    padding-left: 27px;
+    font-size: 24px;
+    font-family: 'Itim', cursive;
+}
+.code3-icons{
+    margin-top: 60px;
+    color: #07f702;
+}
+.code3-icons span{
+    margin-left: 90px;
+    font-size: 170px;
+}
+.code3-icons h6{
+    padding-left: 90px;
+    font-size: 24px;
+    font-family: 'Itim', cursive;
+}
+.code4-icons{
+    color: #07f702;
+    margin-top: 60px;
+}
+.code4-icons span{
+    margin-left: 100px;
+    font-size: 170px;
+}
+.code4-icons h6{
+    padding-left: 130px;
+    font-size: 24px;
+    font-family: 'Itim', cursive;
+}
+.code5-icons{
+    color: #07f702;
+    margin-top: 60px; 
+}
+.code5-icons span{
+    margin-left: 100px;
+    font-size: 170px;
+}
+.code5-icons h6{
+    padding-left: 130px;
+    font-size: 24px;
+    font-family: 'Itim', cursive;
 }
