@@ -73,14 +73,14 @@ html{
     color: #07f702;
     font-family: 'Itim', cursive;
 }
-.projects{
+.skills{
     width: 100%;
     height: 500px;
     background-color: rgba(0, 0, 0, 0.925);
     border: 3px solid #07f702;
     border-top: 1px solid;
 }
-.projects p{
+.skills p{
     padding-top: 11px;
     font-size: 29px;
     padding-left: 40%;
@@ -157,6 +157,40 @@ html{
 }
 .code5-icons h6{
     padding-left: 130px;
+    font-size: 24px;
+    font-family: 'Itim', cursive;
+}
+#border1{
+    margin-top: 2%;
+    border: 2px solid #07f702;
+}
+.projects{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.925);
+    border: 3px solid #07f702;
+    border-top: 1px solid;
+}
+.projects p{
+    padding-top: 11px;
+    font-size: 29px;
+    padding-left: 40%;
+    color: #07f702;
+    font-family: 'Itim', cursive;
+}
+.projects-container{
+    display: flex;
+}
+.project-icon{
+    margin-left: 40px;
+    margin-top: 60px;
+    color: #07f702;
+    padding: 0px;
+}
+.project-icon span{
+    font-size: 170px;
+}
+.project-icon h6{
     font-size: 24px;
     font-family: 'Itim', cursive;
 }
