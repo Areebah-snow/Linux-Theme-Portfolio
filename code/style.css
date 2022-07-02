@@ -310,5 +310,9 @@ html{
     font-family: 'Itim', cursive;
 }
 .project-icon2{
+    margin-left: 20px ;
   color: #07f702;
+}
+.project-icon2 span {
+    font-size: 20px;
 }
