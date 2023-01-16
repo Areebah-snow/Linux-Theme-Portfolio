@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 /* External css link */
 
@@ -26,6 +27,23 @@ html{
     left: 0;
     right: 0;
     border: 3px solid #07f702;
+}
+
+header{
+
+}
+.terminal-container{
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../code/images/pexels-pixabay-207580.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.terminal-container img{
+
 }
 /* Navbar Logo Styling */
 .navbar .name p{
@@ -57,7 +75,7 @@ html{
 .second-container{
     border: 3px solid #07f702;
     padding-top: 8%;
-    background-color: rgba(0, 0, 0, 0.925);
+    /* background-color: rgba(0, 0, 0, 0.925); */
     width: 100%;
     height: 500px;
 }
@@ -73,6 +91,10 @@ html{
     color: #07f702;
     font-family: 'Itim', cursive;
 }
+.center{
+    text-align: center;
+    margin-top: 1rem;
+}
 .skills{
     width: 100%;
     height: 500px;
@@ -83,7 +105,7 @@ html{
 .skills p{
     padding-top: 11px;
     font-size: 29px;
-    padding-left: 40%;
+
     color: #07f702;
     font-family: 'Itim', cursive;
 }
@@ -198,7 +220,7 @@ html{
 .skills p{
     padding-top: 11px;
     font-size: 29px;
-    padding-left: 40%;
+    padding-left: 45%;
     color: #07f702;
     font-family: 'Itim', cursive;
 }
